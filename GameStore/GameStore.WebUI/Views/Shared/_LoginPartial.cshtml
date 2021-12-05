@@ -1,4 +1,16 @@
 ﻿@using Microsoft.AspNet.Identity
+<style>
+    li button {
+        background-color: #222222;
+        border: none;
+        color: #9D9D9D;
+        margin-top: 15px;
+    }
+
+        li button:hover:hover {
+            color: white
+        }
+</style>
 @if (Request.IsAuthenticated)
 {
     using (Html.BeginForm("LogOff", "Account", new { area = "" }, FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
@@ -68,3 +80,4 @@ else
         <li><a href="@Url.Action("Login", "Account")"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
     </ul>
 }
+
