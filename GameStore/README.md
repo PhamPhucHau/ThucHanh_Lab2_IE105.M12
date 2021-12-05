@@ -37,11 +37,7 @@ Try it out on Azure with the following accounts:
 * advanced@gamestore.com / advanced
 * regular@gamestore.com / regular
 
-# Setup Locally
-```bash
-git clone https://github.com/jojozhuang/game-store-aspnet.git
-```
-On Windows, open the project in Visual Studio, compile and run. Access http://localhost:5000/ in web browser, enjoy!
+
 
 # Portfolio
 Read portfolio [Online Game Store(ASP.NET)](https://jojozhuang.github.io/project/game-store-aspnet) to learn the main functions of this online store application.
